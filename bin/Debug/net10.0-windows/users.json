@@ -1,0 +1,14 @@
+[
+  {
+    "Username": "larisa",
+    "Password": "larisa",
+    "Budget": "100000",
+    "Currency": "Lei (RON)"
+  },
+  {
+    "Username": "larisa2",
+    "Password": "larisa",
+    "Budget": "12345678",
+    "Currency": "Euro (\u20AC)"
+  }
+]
