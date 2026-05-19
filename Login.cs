@@ -11,7 +11,7 @@ namespace MoneyTrack
             InitializeComponent();
             Password.UseSystemPasswordChar = true;
 
-            Login.Click += Login_Click;
+            LoginButton.Click += Login_Click;
             Register.Click += Register_Click;
         }
 
@@ -39,8 +39,8 @@ namespace MoneyTrack
             {
                 if (user.Username == username && user.Password == password)
                 {
-                    Bugetsibutoane form3 = new Bugetsibutoane(user.Budget, user.Currency);
-                    form3.Show();
+                    Bugetsibutoane form = new Bugetsibutoane("1000", "RON", Username.Text);
+                    form.Show();
                     this.Hide();
                     return;
                 }

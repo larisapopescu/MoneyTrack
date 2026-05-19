@@ -22,5 +22,11 @@
     "Password": "narcis",
     "Budget": "200000000",
     "Currency": "USD ($)"
+  },
+  {
+    "Username": "felix",
+    "Password": "felix",
+    "Budget": "1000000",
+    "Currency": "USD ($)"
   }
 ]

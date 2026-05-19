@@ -30,7 +30,7 @@
             label1 = new Label();
             label2 = new Label();
             pictureBox1 = new PictureBox();
-            Login = new Button();
+            LoginButton = new Button();
             pictureBox2 = new PictureBox();
             pictureBox3 = new PictureBox();
             panel1.SuspendLayout();
@@ -125,15 +125,15 @@
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
 
-            Login.BackColor = Color.DarkSeaGreen;
-            Login.Font = new Font("Stencil", 16.2F);
-            Login.ForeColor = Color.Transparent;
-            Login.Location = new Point(110, 350);
-            Login.Name = "Login";
-            Login.Size = new Size(247, 93);
-            Login.TabIndex = 6;
-            Login.Text = "Login";
-            Login.UseVisualStyleBackColor = false;
+            LoginButton.BackColor = Color.DarkSeaGreen;
+            LoginButton.Font = new Font("Stencil", 16.2F);
+            LoginButton.ForeColor = Color.Transparent;
+            LoginButton.Location = new Point(110, 350);
+            LoginButton.Name = "LoginButton";
+            LoginButton.Size = new Size(247, 93);
+            LoginButton.TabIndex = 6;
+            LoginButton.Text = "Login";
+            LoginButton.UseVisualStyleBackColor = false;
 
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
             pictureBox2.Location = new Point(93, 162);
@@ -156,7 +156,7 @@
             ClientSize = new Size(941, 474);
             Controls.Add(pictureBox3);
             Controls.Add(pictureBox2);
-            Controls.Add(Login);
+            Controls.Add(LoginButton);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(Password);
@@ -185,7 +185,7 @@
         private Label label1;
         private Label label2;
         private PictureBox pictureBox1;
-        private Button Login;
+        private Button LoginButton;
         private Panel panel2;
         private Label label4;
         private Label label3;
