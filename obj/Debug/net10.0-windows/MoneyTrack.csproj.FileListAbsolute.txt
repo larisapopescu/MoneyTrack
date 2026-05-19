@@ -17,3 +17,19 @@ C:\Users\laris\Desktop\MoneyTrack\obj\Debug\net10.0-windows\MoneyTrack.Propertie
 C:\Users\laris\Desktop\MoneyTrack\obj\Debug\net10.0-windows\MoneyTrack.Form2.resources
 C:\Users\laris\Desktop\MoneyTrack\obj\Debug\net10.0-windows\MoneyTrack.Form1.resources
 C:\Users\laris\Desktop\MoneyTrack\obj\Debug\net10.0-windows\MoneyTrack.Form3.resources
+C:\Users\laris\Desktop\proiect git\MoneyTrack\bin\Debug\net10.0-windows\MoneyTrack.exe
+C:\Users\laris\Desktop\proiect git\MoneyTrack\bin\Debug\net10.0-windows\MoneyTrack.dll
+C:\Users\laris\Desktop\proiect git\MoneyTrack\obj\Debug\net10.0-windows\MoneyTrack.Form1.resources
+C:\Users\laris\Desktop\proiect git\MoneyTrack\obj\Debug\net10.0-windows\MoneyTrack.Form2.resources
+C:\Users\laris\Desktop\proiect git\MoneyTrack\obj\Debug\net10.0-windows\MoneyTrack.Form3.resources
+C:\Users\laris\Desktop\proiect git\MoneyTrack\obj\Debug\net10.0-windows\MoneyTrack.Form4.resources
+C:\Users\laris\Desktop\proiect git\MoneyTrack\obj\Debug\net10.0-windows\MoneyTrack.Properties.Resources.resources
+C:\Users\laris\Desktop\proiect git\MoneyTrack\obj\Debug\net10.0-windows\MoneyTrack.csproj.GenerateResource.cache
+C:\Users\laris\Desktop\proiect git\MoneyTrack\obj\Debug\net10.0-windows\MoneyTrack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\laris\Desktop\proiect git\MoneyTrack\obj\Debug\net10.0-windows\MoneyTrack.AssemblyInfoInputs.cache
+C:\Users\laris\Desktop\proiect git\MoneyTrack\obj\Debug\net10.0-windows\MoneyTrack.AssemblyInfo.cs
+C:\Users\laris\Desktop\proiect git\MoneyTrack\obj\Debug\net10.0-windows\MoneyTrack.csproj.CoreCompileInputs.cache
+C:\Users\laris\Desktop\proiect git\MoneyTrack\obj\Debug\net10.0-windows\MoneyTrack.sourcelink.json
+C:\Users\laris\Desktop\proiect git\MoneyTrack\obj\Debug\net10.0-windows\MoneyTrack.dll
+C:\Users\laris\Desktop\proiect git\MoneyTrack\obj\Debug\net10.0-windows\refint\MoneyTrack.dll
+C:\Users\laris\Desktop\proiect git\MoneyTrack\obj\Debug\net10.0-windows\MoneyTrack.pdb

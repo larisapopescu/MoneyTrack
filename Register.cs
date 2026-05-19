@@ -2,11 +2,11 @@
 
 namespace MoneyTrack
 {
-    public partial class Form2 : Form
+    public partial class Register : Form
     {
         string filePath = "users.json";
 
-        public Form2()
+        public Register()
         {
             InitializeComponent();
             textBox1.UseSystemPasswordChar = false;

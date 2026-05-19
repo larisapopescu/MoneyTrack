@@ -1,6 +1,6 @@
 ﻿namespace MoneyTrack
 {
-    partial class Form1
+    partial class Login
     {
         private System.ComponentModel.IContainer components = null;
 
@@ -18,7 +18,7 @@
 
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             panel1 = new Panel();
             Register = new Button();
             label5 = new Label();

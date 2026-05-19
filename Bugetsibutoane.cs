@@ -1,8 +1,8 @@
 ﻿namespace MoneyTrack
 {
-    public partial class Form3 : Form
+    public partial class Bugetsibutoane : Form
     {
-        public Form3(string budget, string currency)
+        public Bugetsibutoane(string budget, string currency)
         {
             InitializeComponent();
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\laris\\Desktop\\MoneyTrack\\MoneyTrack.csproj": {}
+    "C:\\Users\\laris\\Desktop\\proiect git\\MoneyTrack\\MoneyTrack.csproj": {}
   },
   "projects": {
-    "C:\\Users\\laris\\Desktop\\MoneyTrack\\MoneyTrack.csproj": {
+    "C:\\Users\\laris\\Desktop\\proiect git\\MoneyTrack\\MoneyTrack.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\laris\\Desktop\\MoneyTrack\\MoneyTrack.csproj",
+        "projectUniqueName": "C:\\Users\\laris\\Desktop\\proiect git\\MoneyTrack\\MoneyTrack.csproj",
         "projectName": "MoneyTrack",
-        "projectPath": "C:\\Users\\laris\\Desktop\\MoneyTrack\\MoneyTrack.csproj",
+        "projectPath": "C:\\Users\\laris\\Desktop\\proiect git\\MoneyTrack\\MoneyTrack.csproj",
         "packagesPath": "C:\\Users\\laris\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\laris\\Desktop\\MoneyTrack\\obj\\",
+        "outputPath": "C:\\Users\\laris\\Desktop\\proiect git\\MoneyTrack\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\laris\\AppData\\Roaming\\NuGet\\NuGet.Config",

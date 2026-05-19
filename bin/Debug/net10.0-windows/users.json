@@ -10,5 +10,17 @@
     "Password": "larisa",
     "Budget": "12345678",
     "Currency": "Euro (\u20AC)"
+  },
+  {
+    "Username": "denisa",
+    "Password": "denisa",
+    "Budget": "20000",
+    "Currency": "Euro (\u20AC)"
+  },
+  {
+    "Username": "narcis",
+    "Password": "narcis",
+    "Budget": "200000000",
+    "Currency": "USD ($)"
   }
 ]

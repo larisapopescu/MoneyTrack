@@ -2,11 +2,11 @@ using System.Text.Json;
 
 namespace MoneyTrack
 {
-    public partial class Form1 : Form
+    public partial class Login : Form
     {
         string filePath = "users.json";
 
-        public Form1()
+        public Login()
         {
             InitializeComponent();
             Password.UseSystemPasswordChar = true;
@@ -39,7 +39,7 @@ namespace MoneyTrack
             {
                 if (user.Username == username && user.Password == password)
                 {
-                    Form3 form3 = new Form3(user.Budget, user.Currency);
+                    Bugetsibutoane form3 = new Bugetsibutoane(user.Budget, user.Currency);
                     form3.Show();
                     this.Hide();
                     return;
@@ -51,7 +51,7 @@ namespace MoneyTrack
 
         private void Register_Click(object sender, EventArgs e)
         {
-            Form2 form2 = new Form2();
+            Register form2 = new Register();
             form2.Show();
         }
     }

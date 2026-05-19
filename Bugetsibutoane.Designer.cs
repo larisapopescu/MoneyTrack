@@ -1,6 +1,6 @@
 ﻿namespace MoneyTrack
 {
-    partial class Form3
+    partial class Bugetsibutoane
     {
         /// <summary>
         /// Required designer variable.
