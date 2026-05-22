@@ -9,9 +9,13 @@ namespace MoneyTrack
         public Login()
         {
             InitializeComponent();
+
             Password.UseSystemPasswordChar = true;
 
+            LoginButton.Click -= Login_Click;
             LoginButton.Click += Login_Click;
+
+            Register.Click -= Register_Click;
             Register.Click += Register_Click;
         }
 
@@ -33,14 +37,22 @@ namespace MoneyTrack
             }
 
             string json = File.ReadAllText(filePath);
-            List<User> users = JsonSerializer.Deserialize<List<User>>(json);
+
+            if (json == "")
+            {
+                MessageBox.Show("Nu exista conturi create! Apasa Register.");
+                return;
+            }
+
+            List<User> users = JsonSerializer.Deserialize<List<User>>(json) ?? new List<User>();
 
             foreach (User user in users)
             {
                 if (user.Username == username && user.Password == password)
                 {
-                    Bugetsibutoane form = new Bugetsibutoane("1000", "RON", Username.Text);
+                    Bugetsibutoane form = new Bugetsibutoane(user.Budget, user.Currency, user.Username);
                     form.Show();
+
                     this.Hide();
                     return;
                 }
@@ -52,7 +64,7 @@ namespace MoneyTrack
         private void Register_Click(object sender, EventArgs e)
         {
             Register form2 = new Register();
-            form2.Show();
+            form2.ShowDialog();
         }
     }
 }

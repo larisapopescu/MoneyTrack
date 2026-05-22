@@ -2,7 +2,7 @@
   {
     "Username": "larisa",
     "Password": "larisa",
-    "Budget": "100000",
+    "Budget": "100006",
     "Currency": "Lei (RON)"
   },
   {
@@ -28,5 +28,23 @@
     "Password": "felix",
     "Budget": "1000000",
     "Currency": "USD ($)"
+  },
+  {
+    "Username": "felician",
+    "Password": "felician",
+    "Budget": "1100",
+    "Currency": "Euro (\u20AC)"
+  },
+  {
+    "Username": "varu",
+    "Password": "varu",
+    "Budget": "10",
+    "Currency": "Lei (RON)"
+  },
+  {
+    "Username": "gabita",
+    "Password": "gabita",
+    "Budget": "1000",
+    "Currency": "Euro (\u20AC)"
   }
 ]

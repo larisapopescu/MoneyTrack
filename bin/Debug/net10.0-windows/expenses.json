@@ -1,16 +1,82 @@
 [
   {
+    "Id": "8843c343-35cb-43d8-bec6-ca23653f4dc5",
     "Username": "larisa",
-    "Amount": 100,
-    "Description": "nu stiu ce sa zic",
+    "Amount": 10034,
+    "Description": "larisa",
     "Category": "Timp liber",
     "Date": "2026-05-06T22:44:09.69"
   },
   {
+    "Id": "867695a0-5f0d-4efa-9735-2a182ee91c49",
     "Username": "larisa",
-    "Amount": 30,
-    "Description": "",
-    "Category": "Casa",
-    "Date": "2026-05-07T22:53:14.977"
+    "Amount": 18800,
+    "Description": "nu am descriere",
+    "Category": "Iesit in oras",
+    "Date": "2026-05-22T21:37:00.7982759+03:00"
+  },
+  {
+    "Id": "23a7fa2a-3521-4013-99a6-c47908d82bee",
+    "Username": "larisa",
+    "Amount": 100000,
+    "Description": "we",
+    "Category": "Educatie",
+    "Date": "2026-05-22T21:41:43.8769721+03:00"
+  },
+  {
+    "Id": "c1049c61-8da7-4ad6-bf4a-8c4c391877dd",
+    "Username": "larisa",
+    "Amount": 100000,
+    "Description": "we",
+    "Category": "Educatie",
+    "Date": "2026-05-22T21:41:43.8769721+03:00"
+  },
+  {
+    "Id": "b24b2084-cc85-43cd-883f-fd3aebdb855b",
+    "Username": "felician",
+    "Amount": 205,
+    "Description": "prima",
+    "Category": "Sanatate",
+    "Date": "2026-05-12T21:54:01.948"
+  },
+  {
+    "Id": "bb114ce5-a4ed-46a6-9a49-9c35bdb14caf",
+    "Username": "felician",
+    "Amount": 600,
+    "Description": "buna",
+    "Category": "Produse alimentare",
+    "Date": "2026-04-15T21:54:54.434"
+  },
+  {
+    "Id": "1254f9ec-c01a-46e6-a209-697c8f6805e1",
+    "Username": "varu",
+    "Amount": 2,
+    "Description": "sdd",
+    "Category": "Educatie",
+    "Date": "2026-05-22T22:07:31.9583004+03:00"
+  },
+  {
+    "Id": "85126365-a255-4746-a4ad-0b096ff5a51c",
+    "Username": "varu",
+    "Amount": 3,
+    "Description": "er",
+    "Category": "Timp liber",
+    "Date": "2026-05-09T22:08:12.991"
+  },
+  {
+    "Id": "c37bdacd-9afb-4090-bff8-4c481444f74f",
+    "Username": "gabita",
+    "Amount": 48,
+    "Description": "nush",
+    "Category": "Cadouri",
+    "Date": "2026-05-05T22:11:07.505"
+  },
+  {
+    "Id": "0b72f917-7d0a-4a79-84e0-93d737d21777",
+    "Username": "gabita",
+    "Amount": 67,
+    "Description": "3",
+    "Category": "Iesit in oras",
+    "Date": "2026-05-08T22:11:25.934"
   }
 ]

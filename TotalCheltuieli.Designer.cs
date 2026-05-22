@@ -29,97 +29,136 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
-            dataGridView1 = new DataGridView();
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
+            buttonDelete = new Button();
+            buttonReturn = new Button();
+            buttonReset = new Button();
+            buttonStatisticiGrafic = new Button();
+            buttonSearch = new Button();
+            buttonFilter = new Button();
+            buttonEdit = new Button();
+            dataGridViewExpenses = new DataGridView();
             panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewExpenses).BeginInit();
             SuspendLayout();
             // 
             // panel1
             // 
             panel1.BackColor = Color.DarkSeaGreen;
-            panel1.Controls.Add(button3);
-            panel1.Controls.Add(button2);
-            panel1.Controls.Add(button1);
-            panel1.Controls.Add(dataGridView1);
+            panel1.Controls.Add(buttonDelete);
+            panel1.Controls.Add(buttonReturn);
+            panel1.Controls.Add(buttonReset);
+            panel1.Controls.Add(buttonStatisticiGrafic);
+            panel1.Controls.Add(buttonSearch);
+            panel1.Controls.Add(buttonFilter);
+            panel1.Controls.Add(buttonEdit);
+            panel1.Controls.Add(dataGridViewExpenses);
             panel1.Location = new Point(36, 1);
             panel1.Name = "panel1";
             panel1.Size = new Size(857, 474);
             panel1.TabIndex = 0;
             // 
-            // dataGridView1
+            // buttonDelete
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(-41, 0);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(569, 471);
-            dataGridView1.TabIndex = 1;
+            buttonDelete.Font = new Font("Stencil", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            buttonDelete.Location = new Point(571, 86);
+            buttonDelete.Name = "buttonDelete";
+            buttonDelete.Size = new Size(203, 45);
+            buttonDelete.TabIndex = 7;
+            buttonDelete.Text = "Stergere";
+            buttonDelete.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // buttonReturn
             // 
-            button1.Font = new Font("Stencil", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button1.Location = new Point(571, 88);
-            button1.Name = "button1";
-            button1.Size = new Size(218, 57);
-            button1.TabIndex = 2;
-            button1.Text = "Editare sau stergere";
-            button1.UseVisualStyleBackColor = true;
+            buttonReturn.Font = new Font("Stencil", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            buttonReturn.Location = new Point(627, 432);
+            buttonReturn.Name = "buttonReturn";
+            buttonReturn.Size = new Size(109, 29);
+            buttonReturn.TabIndex = 5;
+            buttonReturn.Text = "Return";
+            buttonReturn.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // buttonReset
             // 
-            button2.Font = new Font("Stencil", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button2.Location = new Point(571, 194);
-            button2.Name = "button2";
-            button2.Size = new Size(218, 57);
-            button2.TabIndex = 3;
-            button2.Text = "Filtrare cheltuieli";
-            button2.UseVisualStyleBackColor = true;
+            buttonReset.Font = new Font("Stencil", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            buttonReset.Location = new Point(571, 358);
+            buttonReset.Name = "buttonReset";
+            buttonReset.Size = new Size(203, 52);
+            buttonReset.TabIndex = 6;
+            buttonReset.Text = "Resetare";
+            buttonReset.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // buttonStatisticiGrafic
             // 
-            button3.Font = new Font("Stencil", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button3.Location = new Point(571, 296);
-            button3.Name = "button3";
-            button3.Size = new Size(218, 57);
-            button3.TabIndex = 4;
-            button3.Text = "Cautare cheltuieli";
-            button3.UseVisualStyleBackColor = true;
+            buttonStatisticiGrafic.Font = new Font("Stencil", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            buttonStatisticiGrafic.Location = new Point(571, 286);
+            buttonStatisticiGrafic.Name = "buttonStatisticiGrafic";
+            buttonStatisticiGrafic.Size = new Size(203, 56);
+            buttonStatisticiGrafic.TabIndex = 5;
+            buttonStatisticiGrafic.Text = "Statistici si Grafic";
+            buttonStatisticiGrafic.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // buttonSearch
             // 
-            button4.Font = new Font("Stencil", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button4.Location = new Point(820, 433);
-            button4.Name = "button4";
-            button4.Size = new Size(109, 29);
-            button4.TabIndex = 5;
-            button4.Text = "Return";
-            button4.UseVisualStyleBackColor = true;
+            buttonSearch.Font = new Font("Stencil", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            buttonSearch.Location = new Point(571, 218);
+            buttonSearch.Name = "buttonSearch";
+            buttonSearch.Size = new Size(203, 52);
+            buttonSearch.TabIndex = 4;
+            buttonSearch.Text = "Cautare cheltuieli";
+            buttonSearch.UseVisualStyleBackColor = true;
+            // 
+            // buttonFilter
+            // 
+            buttonFilter.Font = new Font("Stencil", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            buttonFilter.Location = new Point(571, 149);
+            buttonFilter.Name = "buttonFilter";
+            buttonFilter.Size = new Size(203, 50);
+            buttonFilter.TabIndex = 3;
+            buttonFilter.Text = "Filtrare cheltuieli";
+            buttonFilter.UseVisualStyleBackColor = true;
+            // 
+            // buttonEdit
+            // 
+            buttonEdit.Font = new Font("Stencil", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            buttonEdit.Location = new Point(571, 27);
+            buttonEdit.Name = "buttonEdit";
+            buttonEdit.Size = new Size(203, 44);
+            buttonEdit.TabIndex = 2;
+            buttonEdit.Text = "Editare ";
+            buttonEdit.UseVisualStyleBackColor = true;
+            // 
+            // dataGridViewExpenses
+            // 
+            dataGridViewExpenses.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewExpenses.Location = new Point(-41, 0);
+            dataGridViewExpenses.Name = "dataGridViewExpenses";
+            dataGridViewExpenses.RowHeadersWidth = 51;
+            dataGridViewExpenses.Size = new Size(569, 471);
+            dataGridViewExpenses.TabIndex = 1;
             // 
             // TotalCheltuieli
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(941, 474);
-            Controls.Add(button4);
             Controls.Add(panel1);
             Name = "TotalCheltuieli";
             Text = "TotalCheltuieli";
             panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewExpenses).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
 
         private Panel panel1;
-        private DataGridView dataGridView1;
-        private Button button1;
-        private Button button3;
-        private Button button2;
-        private Button button4;
+        private DataGridView dataGridViewExpenses;
+        private Button buttonEdit;
+        private Button buttonSearch;
+        private Button buttonFilter;
+        private Button buttonReturn;
+        private Button buttonStatisticiGrafic;
+        private Button buttonDelete;
+        private Button buttonReset;
     }
 }

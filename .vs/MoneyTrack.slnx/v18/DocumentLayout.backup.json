@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\laris\\Desktop\\proiect git\\MoneyTrack\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8DE3CF45-2EE2-CFCF-82F8-5A0BB02B173A}|MoneyTrack.csproj|c:\\users\\laris\\desktop\\proiect git\\moneytrack\\cheltuieli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DE3CF45-2EE2-CFCF-82F8-5A0BB02B173A}|MoneyTrack.csproj|solutionrelative:cheltuieli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8DE3CF45-2EE2-CFCF-82F8-5A0BB02B173A}|MoneyTrack.csproj|c:\\users\\laris\\desktop\\proiect git\\moneytrack\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DE3CF45-2EE2-CFCF-82F8-5A0BB02B173A}|MoneyTrack.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8DE3CF45-2EE2-CFCF-82F8-5A0BB02B173A}|MoneyTrack.csproj|c:\\users\\laris\\desktop\\proiect git\\moneytrack\\bugetsibutoane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8DE3CF45-2EE2-CFCF-82F8-5A0BB02B173A}|MoneyTrack.csproj|solutionrelative:bugetsibutoane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8DE3CF45-2EE2-CFCF-82F8-5A0BB02B173A}|MoneyTrack.csproj|c:\\users\\laris\\desktop\\proiect git\\moneytrack\\bugetsibutoane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8DE3CF45-2EE2-CFCF-82F8-5A0BB02B173A}|MoneyTrack.csproj|solutionrelative:bugetsibutoane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8DE3CF45-2EE2-CFCF-82F8-5A0BB02B173A}|MoneyTrack.csproj|c:\\users\\laris\\desktop\\proiect git\\moneytrack\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DE3CF45-2EE2-CFCF-82F8-5A0BB02B173A}|MoneyTrack.csproj|solutionrelative:user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8DE3CF45-2EE2-CFCF-82F8-5A0BB02B173A}|MoneyTrack.csproj|c:\\users\\laris\\desktop\\proiect git\\moneytrack\\cheltuieli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DE3CF45-2EE2-CFCF-82F8-5A0BB02B173A}|MoneyTrack.csproj|solutionrelative:cheltuieli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,70 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\laris\\Desktop\\proiect git\\MoneyTrack\\Login.cs",
-              "RelativeDocumentMoniker": "Login.cs",
-              "ToolTip": "C:\\Users\\laris\\Desktop\\proiect git\\MoneyTrack\\Login.cs*",
-              "RelativeToolTip": "Login.cs*",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAQwCoAAAAgAAAAAAAAAA==",
+              "Title": "Cheltuieli.cs",
+              "DocumentMoniker": "C:\\Users\\laris\\Desktop\\proiect git\\MoneyTrack\\Cheltuieli.cs",
+              "RelativeDocumentMoniker": "Cheltuieli.cs",
+              "ToolTip": "C:\\Users\\laris\\Desktop\\proiect git\\MoneyTrack\\Cheltuieli.cs",
+              "RelativeToolTip": "Cheltuieli.cs",
+              "ViewState": "AgIAAK8AAAAAAAAAAAAQwM4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-19T19:43:16.518Z",
+              "WhenOpened": "2026-05-22T19:05:20.217Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\laris\\Desktop\\proiect git\\MoneyTrack\\User.cs",
-              "RelativeDocumentMoniker": "User.cs",
-              "ToolTip": "C:\\Users\\laris\\Desktop\\proiect git\\MoneyTrack\\User.cs",
-              "RelativeToolTip": "User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-19T19:40:39.104Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Bugetsibutoane.cs",
-              "DocumentMoniker": "C:\\Users\\laris\\Desktop\\proiect git\\MoneyTrack\\Bugetsibutoane.cs",
-              "RelativeDocumentMoniker": "Bugetsibutoane.cs",
-              "ToolTip": "C:\\Users\\laris\\Desktop\\proiect git\\MoneyTrack\\Bugetsibutoane.cs*",
-              "RelativeToolTip": "Bugetsibutoane.cs*",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAYwB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-19T19:39:20.722Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Bugetsibutoane.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\laris\\Desktop\\proiect git\\MoneyTrack\\Bugetsibutoane.cs",
-              "RelativeDocumentMoniker": "Bugetsibutoane.cs",
-              "ToolTip": "C:\\Users\\laris\\Desktop\\proiect git\\MoneyTrack\\Bugetsibutoane.cs [Design]*",
-              "RelativeToolTip": "Bugetsibutoane.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-19T19:39:19.279Z",
-              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Cheltuieli.cs",
-              "DocumentMoniker": "C:\\Users\\laris\\Desktop\\proiect git\\MoneyTrack\\Cheltuieli.cs",
-              "RelativeDocumentMoniker": "Cheltuieli.cs",
-              "ToolTip": "C:\\Users\\laris\\Desktop\\proiect git\\MoneyTrack\\Cheltuieli.cs*",
-              "RelativeToolTip": "Cheltuieli.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
+              "Title": "Bugetsibutoane.cs",
+              "DocumentMoniker": "C:\\Users\\laris\\Desktop\\proiect git\\MoneyTrack\\Bugetsibutoane.cs",
+              "RelativeDocumentMoniker": "Bugetsibutoane.cs",
+              "ToolTip": "C:\\Users\\laris\\Desktop\\proiect git\\MoneyTrack\\Bugetsibutoane.cs",
+              "RelativeToolTip": "Bugetsibutoane.cs",
+              "ViewState": "AgIAALYAAAAAAAAAAAAQwMEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-19T19:34:36.487Z",
+              "WhenOpened": "2026-05-22T19:02:05.93Z",
               "EditorCaption": ""
             }
           ]

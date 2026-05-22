@@ -6,16 +6,28 @@ namespace MoneyTrack
     {
         string filePath = "users.json";
 
+        bool isProcessing = false;
+
         public Register()
         {
             InitializeComponent();
+
             textBox1.UseSystemPasswordChar = false;
             textBox1.PasswordChar = '\0';
+
+            registernow.Click -= registernow_Click;
             registernow.Click += registernow_Click;
         }
 
         private void registernow_Click(object sender, EventArgs e)
         {
+            if (isProcessing == true)
+            {
+                return;
+            }
+
+            isProcessing = true;
+
             string username = registerusername.Text;
             string password = textBox1.Text;
             string budget = textBox2.Text;
@@ -24,6 +36,16 @@ namespace MoneyTrack
             if (username == "" || password == "" || budget == "" || currency == "")
             {
                 MessageBox.Show("Completeaza toate campurile!");
+                isProcessing = false;
+                return;
+            }
+
+            decimal testBudget;
+
+            if (!decimal.TryParse(budget, out testBudget))
+            {
+                MessageBox.Show("Bugetul trebuie sa fie numar!");
+                isProcessing = false;
                 return;
             }
 
@@ -32,7 +54,21 @@ namespace MoneyTrack
             if (File.Exists(filePath))
             {
                 string json = File.ReadAllText(filePath);
-                users = JsonSerializer.Deserialize<List<User>>(json);
+
+                if (json != "")
+                {
+                    users = JsonSerializer.Deserialize<List<User>>(json) ?? new List<User>();
+                }
+            }
+
+            foreach (User user in users)
+            {
+                if (user.Username == username)
+                {
+                    MessageBox.Show("Exista deja un cont cu acest username!");
+                    isProcessing = false;
+                    return;
+                }
             }
 
             User newUser = new User()
